@@ -4,7 +4,7 @@ public class powerRecursion {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 3, n = 4;
+		int a = 2, n = 3;
 		System.out.println(pow(a, n));
 	}
 
