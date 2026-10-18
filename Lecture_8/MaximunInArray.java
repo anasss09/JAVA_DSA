@@ -9,11 +9,21 @@ public class MaximunInArray {
 
 	public static int maximun(int[] arr) {
 		int max = Integer.MIN_VALUE;
-		for (int i = 1; i < arr.length; i++) {
-			if (arr[i] > max) {
-				max = arr[i];
-			}
+
+		for (int i = 0; i < arr.length; i++) {
+			max = Math.max(max, arr[i]);
 		}
+
 		return max;
 	}
+
+//	public static int maximun(int[] arr) {
+//		int max = Integer.MIN_VALUE;
+//		for (int i = 1; i < arr.length; i++) {
+//			if (arr[i] > max) {
+//				max = arr[i];
+//			}
+//		}
+//		return max;
+//	}
 }

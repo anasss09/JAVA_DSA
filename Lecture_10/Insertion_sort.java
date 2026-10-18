@@ -5,14 +5,15 @@ import java.util.*;
 public class Insertion_sort {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		int[] arr = new int[num];
-//		int[] arr = { 4 1 5 2 9 6 7 };
+//		Scanner sc = new Scanner(System.in);
+//		int num = sc.nextInt();
+//		int[] arr = new int[num];
+		int[] arr = { 4, 1, 5, 2, 9, 6, 7 };
+		int num = arr.length;
 		
-		for(int i = 0; i < num; i++) {
-			arr[i] = sc.nextInt();
-		}
+//		for(int i = 0; i < num; i++) {
+//			arr[i] = sc.nextInt();
+//		}
 		
 		sort(arr);
 		
