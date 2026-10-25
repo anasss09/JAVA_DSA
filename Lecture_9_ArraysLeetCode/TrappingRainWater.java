@@ -29,6 +29,7 @@ public class TrappingRainWater {
 		}
 
 		// Trap 
+		
 		for (int i = 0; i < right.length; i++) {
 			sum += Math.min(left[i], right[i]) - arr[i];
 		}
